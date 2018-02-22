@@ -41,7 +41,7 @@ export const cartService = {
   },
 
   getCartItems: () => {
-    const products = JSON.parse(sessionStorage.getItem("cart")).products;
+    const products = sessionStorage.getItem("cart") ? JSON.parse(sessionStorage.getItem("cart")).products: [];
     cartComponent.renderCartElements(products);
   }
 }
