@@ -1,0 +1,16 @@
+#product-title {
+  margin-bottom: 40px;
+}
+#product-image img{
+  max-width: 100%;
+}
+
+.product-information {
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+#product-description label {
+  font-weight: bold;
+  margin-right: 5px;
+}

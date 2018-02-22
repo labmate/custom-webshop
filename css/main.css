@@ -1,0 +1,25 @@
+#books-results {
+  max-width: 100%;
+}
+
+.book.card {
+  margin-bottom: 30px;
+}
+
+.book.card .card-img-holder {
+  height: 200px;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+
+.book.card .card-title {
+  height: 70px;
+  overflow: hidden;
+}
+
+.book.card .card-text {
+  height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
