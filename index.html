@@ -6,62 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/main.css">
     <title>Custom webshop</title>
   </head>
   <body>
-		<header>
-			<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-				<div class="container-fluid">
-				  <a class="navbar-brand" href="#">Webshop</a>
-				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
-				    <span class="navbar-toggler-icon"></span>
-				  </button>
-				  <div class="collapse navbar-collapse" id="main-navbar">
-				    <ul class="navbar-nav mr-auto">
-				      <li class="nav-item active">
-				        <a class="nav-link" href="index.html">Home</a>
-				      </li>
-				    </ul>
-				  </div>
-					<a href="cart.html" class="btn btn-info btn-lg">
-            <span id="cart-counter">0</span>
-            <i class="fa fa-shopping-cart"></i> Shopping Cart
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Webshop</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+            </ul>
+          </div>
+          <a href="cart.html" class="btn btn-info btn-lg">
+          <span id="cart-counter">0</span>
+          <i class="fa fa-shopping-cart"></i> Shopping Cart
           </a>
-				</div>
-			</nav>
-		</header>
-		<main>
-			<div class="container-fluid">
-				<section class="search">
-					<div class="row">
-						<div class="col-sm-12">
-							<h2>Searching for books:</h2>
-							<div class="form-group">
-						  	<input class="form-control form-control-lg" type="text" id="searchproduct" placeholder="Please, type the title of the book in here...">
-						  </div>
-						</div>
-					</div>
-				</section>
-
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container-fluid">
+        <section class="search">
+          <div class="row">
+            <div class="col-sm-12">
+              <h2>Searching for books:</h2>
+              <div class="form-group">
+                <input class="form-control form-control-lg" type="text" id="searchproduct" placeholder="Please, type the title of the book in here...">
+              </div>
+            </div>
+          </div>
+        </section>
         <section>
           <p>Hits: <span id="totalCounts">0</span></p>
         </section>
-
-				<section>
+        <section>
           <div class="row row-eq-height" id="products-results"></div>
-				</section>
-			</div>
-		</main>
-
-
+        </section>
+      </div>
+    </main>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-		<script type="module" src="js/main.js" ></script>
+    <script type="module" src="js/main.js"></script>
   </body>
 </html>
